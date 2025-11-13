@@ -37,9 +37,5 @@ CMD ["python3", "main.py"]
 **Результаты работы:**
 
 <div align="center">
-<img src="screen-site.png" alt="Работа сайта (png)">
 <img src="screen-site-record.gif" alt="Работа сайта (gif)">
 </div>
-![Работа сайта(Скриншот)](screen-site-record.gif)
-
-![Работа сайта(Скриншот)](screen-site-record.gif)
