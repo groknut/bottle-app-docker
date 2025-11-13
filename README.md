@@ -7,7 +7,7 @@
 ```bash
 docker build -t bottle-app .
 ```
-**Запустить образ**
+**Запустить образ:**
 ```bash
 podman -d -p 5000:5000 --name bottle localhost/bottle-app
 ```
@@ -35,4 +35,5 @@ EXPOSE 5000
 CMD ["python3", "main.py"]
 ```
 **Результаты работы:**
+
 ![Работа сайта](screen-site-record.gif)
