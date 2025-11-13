@@ -33,7 +33,6 @@ EXPOSE 5000
 
 # run the application
 CMD ["python3", "main.py"]
-
 ```
 **Результаты работы:**
-![Скриншот работающего  сайта](screen-site.png)
+![Работа сайта](screen-site-record.gif)
