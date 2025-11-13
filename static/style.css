@@ -1,0 +1,31 @@
+:root
+{
+	--bg-color: #100f0f;
+	--txt-color: #f0f0f0;
+}
+
+body
+{
+	background-color: var(--bg-color);
+	color: var(--txt-color);
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+main
+{
+	width: 50%;
+}
+
+.instruction
+{
+	text-align: center;
+	font-family: monospace;
+}
+
+img
+{
+	width: 500px;
+	border-radius: 25px;
+}
