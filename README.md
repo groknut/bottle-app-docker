@@ -36,4 +36,4 @@ CMD ["python3", "main.py"]
 ```
 **Результаты работы:**
 
-![Работа сайта](screen-site-record.gif)
+![Работа сайта](screen-site.png)
