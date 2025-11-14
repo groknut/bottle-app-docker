@@ -5,7 +5,7 @@
 
 **Для сборки:**
 ```bash
-docker build -t bottle-app .
+podman build -t bottle-app .
 ```
 **Запустить образ:**
 ```bash
