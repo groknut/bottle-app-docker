@@ -9,7 +9,7 @@ podman build -t bottle-app .
 ```
 **Запустить образ:**
 ```bash
-podman -d -p 5000:5000 --name bottle localhost/bottle-app
+podman run -d -p 5000:5000 --name bottle localhost/bottle-app
 ```
 
 **Содержимое `Dockerfile`:**
@@ -37,5 +37,5 @@ CMD ["python3", "main.py"]
 **Результаты работы:**
 
 <div align="center">
-<img src="screen-site-record.gif" alt="Работа сайта (gif)">
+<img src="./assets/screen-site-record.gif" alt="Работа сайта (gif)">
 </div>
