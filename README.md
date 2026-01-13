@@ -3,15 +3,6 @@
 
 [Github репозиторий, откуда брал изображения](https://github.com/DenverCoder1/minimalistic-wallpaper-collection)
 
-**Для сборки:**
-```bash
-podman build -t bottle-app .
-```
-**Запустить образ:**
-```bash
-podman run -d -p 5000:5000 --name bottle localhost/bottle-app
-```
-
 **Содержимое `Dockerfile`:**
 ```Dockerfile
 # our base image
@@ -34,8 +25,19 @@ EXPOSE 5000
 # run the application
 CMD ["python3", "main.py"]
 ```
-**Результаты работы:**
+### Сборка
+**Собрать образ:**
+```bash
+podman build -t bottle-app .
+```
 
+**Запустить контейнер:**
+```bash
+podman run -d -p 5000:5000 --name bottle localhost/bottle-app
+```
+
+### Демонстрация
+_Нажмите на **Space** чтобы обновить страницу:_
 <div align="center">
 <img src="./assets/screen-site-record.gif" alt="Работа сайта (gif)">
 </div>
